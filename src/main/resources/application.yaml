@@ -1,0 +1,6 @@
+spring:
+  ldap:
+    urls: ldaps://*.*.*.*:636
+    base: dc=***,dc=com
+    username: cn=admin,OU=Manager,dc=***,dc=com
+    password: ******
